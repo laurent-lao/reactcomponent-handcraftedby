@@ -31,22 +31,19 @@ const WithReact = () => {
   return (
     <span className="Handcrafted-content">
       with&nbsp;
-      
       <a 
-        className="Handcrafted-link"
         href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
       >
-        <ReactLogo />
+        
       </a>
+      <img src={reactLogo} alt="reactLogo" />
     </span>
   )
 }
 
 const ReactLogo = () => {
   return (
-    <img src={reactLogo} className="Handcrafted-logo" alt="reactLogo" />
+    <img src={reactLogo} alt="reactLogo" />
   )
 }
 
