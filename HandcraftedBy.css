@@ -1,0 +1,39 @@
+.Handcrafted {
+  display: inline-block;
+  background-color: #282c34;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Handcrafted-content {
+  display: inline-block;
+}
+
+.Handcrafted-logo {
+  display: inline-block;
+
+}
+
+.Handcrafted-link {
+  color: #61dafb;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Handcrafted-logo {
+    animation: Handcrafted-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes Handcrafted-logo-spin {
+  form {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
