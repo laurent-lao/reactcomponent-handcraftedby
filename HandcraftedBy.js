@@ -4,11 +4,10 @@ import './HandcraftedBy.css'
 const HandcraftedBy = (props) => {
   return (
     <span className="Handcrafted">
-      {/* 100% template-free ! */}
       <span>
-      handcrafted by&nbsp;
-      <Author name={props.name} link={props.link} />&nbsp;
-      <WithReact />
+        handcrafted by&nbsp;
+        <Author name={props.name} link={props.link} />&nbsp;
+        <WithReact />
       </span>
     </span>
   )

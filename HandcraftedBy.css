@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -12,10 +11,6 @@
 
 .Handcrafted span {
   display: flex;
-
-}
-.Handcrafted-logo {
-  display: inline;
 }
 
 .Handcrafted-link {
