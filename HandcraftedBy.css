@@ -9,8 +9,13 @@
   color: white;
 }
 
-.Handcrafted-content {
+
+.Handcrafted span {
   display: flex;
+
+}
+.Handcrafted-logo {
+  display: inline;
 }
 
 .Handcrafted-link {

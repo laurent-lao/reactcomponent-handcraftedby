@@ -5,16 +5,18 @@ const HandcraftedBy = (props) => {
   return (
     <span className="Handcrafted">
       {/* 100% template-free ! */}
-      <span>handcrafted by</span>&nbsp;
+      <span>
+      handcrafted by&nbsp;
       <Author name={props.name} link={props.link} />&nbsp;
       <WithReact />
+      </span>
     </span>
   )
 }
 
 const Author = (props) => {
   return (
-    <span className="Handcrafted-content">
+    <span>
       <a 
         className="Handcrafted-link"
         href={props.link}
@@ -29,21 +31,25 @@ const Author = (props) => {
 
 const WithReact = () => {
   return (
-    <span className="Handcrafted-content">
-      with&nbsp;
+    <span >
+      with
       <a 
+
         href="https://reactjs.org"
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        
+       
       </a>
-      <img src={reactLogo} alt="reactLogo" />
+      <ReactLogo />
+      
     </span>
   )
 }
 
 const ReactLogo = () => {
   return (
-    <img src={reactLogo} alt="reactLogo" />
+    <img className="Handcrafted-logo" src={reactLogo} alt="reactLogo" onclick="window.open('https://reactjs.org')"/>
   )
 }
 
