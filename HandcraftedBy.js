@@ -32,24 +32,14 @@ const Author = (props) => {
 const WithReact = () => {
   return (
     <span >
-      with
-      <a 
-
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-       
-      </a>
-      <ReactLogo />
-      
+      with <ReactLogo />
     </span>
   )
 }
 
 const ReactLogo = () => {
   return (
-    <img className="Handcrafted-logo" src={reactLogo} alt="reactLogo" onclick="window.open('https://reactjs.org')"/>
+    <img className="Handcrafted-logo" src={reactLogo} alt="reactLogo" onClick={() => window.open('https://reactjs.org')} />
   )
 }
 
